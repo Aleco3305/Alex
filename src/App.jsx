@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <h1>Registro de usuario</h1>
+    <h1>Registro</h1>
     <h1>{isLogedIn ? "El usuario esta logueados" : "El usuario NO esta logeado"}</h1>
     <button className = "log" onClick={logUser}> { isLogedIn ? "Cerrar sesion" : "Logearse"} </button>
   
