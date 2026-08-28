@@ -1,21 +1,17 @@
 import BotonDog from "./componentes/BotonDog"
 import './App.css'
 import { useState } from "react"
+import Registro from "./componentes/Registro"
 
 function App() {
 
   const [isLogedIn, setIsLogedIn] = useState(false) 
 
-  function logUser(){
-
-    setIsLogedIn(!isLogedIn)
-  }
-
   return (
+
     <>
-    <h1>Registro</h1>
-    <h1>{isLogedIn ? "El usuario esta logueados" : "El usuario NO esta logeado"}</h1>
-    <button className = "log" onClick={logUser}> { isLogedIn ? "Cerrar sesion" : "Logearse"} </button>
+    <Registro isLogedIn={isLogedIn} setIsLogedIn={setIsLogedIn}/>
+  
   
     <h1> Perrot</h1> 
 
