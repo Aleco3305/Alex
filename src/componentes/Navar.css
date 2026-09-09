@@ -1,0 +1,24 @@
+.bienvenida{
+
+    margin: auto;
+}
+
+.image{
+     width: 80px;
+     height: auto;
+}
+.casita{
+
+    width: 40px;
+    height: auto;
+    margin-bottom: 5px;
+}
+.Barraprincipal{
+
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    gap: 12px; 
+
+}
