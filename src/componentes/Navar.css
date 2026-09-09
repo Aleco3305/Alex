@@ -1,24 +1,11 @@
-.bienvenida{
-
-    margin: auto;
+.bienvenida {
+  margin: 0;
+  font-size: 24px;
 }
-
-.image{
-     width: 80px;
-     height: auto;
-}
-.casita{
-
-    width: 40px;
-    height: auto;
-    margin-bottom: 5px;
-}
-.Barraprincipal{
-
-    display:flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 10px 20px;
-    gap: 12px; 
-
+.Barraprincipal {
+  display: flex;
+  justify-content: space-between; /* Empuja los 3 bloques: Izquierda, Centro y Derecha */
+  align-items: center;            /* Centra verticalmente los elementos */
+  padding: 10px 30px;
+  background-color: #ffffff;      /* Ajusta el fondo si lo necesitas */
 }
