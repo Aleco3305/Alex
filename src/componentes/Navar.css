@@ -9,3 +9,11 @@
   padding: 10px 30px;
   background-color: #ffffff;      /* Ajusta el fondo si lo necesitas */
 }
+.imagenAve,
+.comida,
+.Origen {
+  width: 70px;                    /* Ajusta este valor si las quieres un poco más grandes o pequeñas */
+  height: 70px;
+  object-fit: contain;            /* Evita que la imagen se deforme o estire */
+  cursor: pointer;
+}

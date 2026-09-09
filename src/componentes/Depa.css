@@ -1,0 +1,26 @@
+/* Contenedor Flexbox */
+.contenedor-galeria {
+  display: flex;
+  flex-wrap: wrap;           /* Permite que las imágenes bajen de renglón si no caben */
+  justify-content: center;   /* Centra la galería horizontalmente */
+  gap: 20px;                 /* Espacio uniforme entre cada imagen */
+  padding: 30px 20px;
+  max-width: 1200px;
+  margin: 0 auto;            /* Centra todo el bloque en la pantalla */
+}
+
+/* Estilo individual para cada imagen */
+.Boseto {
+  width: 280px;              /* Ancho uniforme para cada tarjeta/muestra */
+  height: 200px;             /* Altura fija */
+  object-fit: cover;         /* Ajusta y recorta la imagen sin deformarla */
+  border-radius: 12px;       /* Bordes redondeados suaves */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Sombra para despegar del fondo */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efecto hover interactivo */
+.Boseto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}

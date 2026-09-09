@@ -1,5 +1,7 @@
 import Navar from "./componentes/Navar"
 import { useState } from "react"
+import './App.css'
+import Depa from "./componentes/Depa"
 
 function App() {
 
@@ -8,6 +10,7 @@ function App() {
     <>    
 
     <Navar/>
+    <Depa/>
   
     </>
 

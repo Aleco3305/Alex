@@ -1,0 +1,13 @@
+/* Configuración global del fondo de la página */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2a363b; /* Fondo sutil y no tan iluminado */
+  color: #f4f6f6;            /* Texto claro */
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.Barraprincipal {
+  background-color: #36454c;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
