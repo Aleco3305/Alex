@@ -10,7 +10,7 @@ function Navar(){
     <>
     <header className="Barraprincipal">
         
-        <p class="hola">
+        <p className="hola">
             Hello world
         </p>
 
