@@ -1,25 +1,23 @@
 import Card from '../Card'
-import image from '../../imagen/image.png';
 
 function Oruro() {
-  const lista = [
-    { id: 1, src: image, alt: "Oruro", titulo: "Bienvenido a Oruro", descripcion: "Ciudad folclórica de Bolivia" }
-  ];
-
-  const item = lista.find(d => d.id === 1);
-
   return (
-    <div>
-      {item && (
-        <Card 
-          src={item.src} 
-          alt={item.alt} 
-          titulo={item.titulo} 
-          descripcion={item.descripcion} 
-        />
-      )}
+    <div style={{ padding: "20px", color: "white" }}>
+
+      <h1>Bienvenido a Oruro</h1>
+      <p>
+        Aquí puedes escribir todo el contenido textual que quieras sin depender de ninguna imagen.
+      </p>
+
+      {/* Puedes usar el componente Card enviando solo texto */}
+      <Card 
+        titulo="Capital Folclórica " 
+        descripcion="Oruro es famosa por su carnaval y su rica cultura." 
+      />
+
+      
     </div>
-  );
+  )
 }
 
-export default Oruro;
+export default Oruro

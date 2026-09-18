@@ -1,12 +1,13 @@
 function Card({ src, alt, titulo, descripcion }) {
   return (
-
-    <div className="card" style={{ border: '1px solid #ccc', padding: '16px', borderRadius: '8px', maxWidth: '300px' }}>
-      <img src={src} alt={alt} style={{ width: '100%', borderRadius: '4px' }} />
-<h1>{img}</h1>
-
+    <div className="card-contenedor">
+      {/* Muestra la imagen ÚNICAMENTE si existe la propiedad 'src' */}
+      {src && <img src={src} alt={alt} className="card-imagen" />}
+      
+      {titulo && <h2>{titulo}</h2>}
+      {descripcion && <p>{descripcion}</p>}
     </div>
-  );
+  )
 }
 
-export default Card;
+export default Card
