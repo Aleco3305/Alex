@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Navar.css'
 import Ave from '../imagen/Ave.png'
 import Comida from '../imagen/Comida.png'
@@ -8,11 +9,11 @@ function Navar(){
     return (
     
     <>
-    <header className="Barraprincipal">
-        
-        <p className="hola">
-            Hello world
-        </p>
+  <header className="Barraprincipal">
+
+      <Link className="hola" to="/">
+        Bienvenido
+      </Link>
 
         <nav className="Menu" > 
 
@@ -24,10 +25,7 @@ function Navar(){
 
     </header>
 
-
     <footer>
-
- 
 
     </footer>
 

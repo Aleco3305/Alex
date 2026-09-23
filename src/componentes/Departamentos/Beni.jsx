@@ -1,27 +1,23 @@
 import Card from '../Card'
 
-function Lapaz (){
+function Beni() {
+  return (
+    <div style={{ padding: "20px", color: "white" }}>
 
-    return(
-        <>
-        <div style={{ padding: "20px", color: "white" }}>
-
-      <h1>Bienvenido a La Paz</h1>
+      <h1>Bienvenido a Beni</h1>
       <p>
         Aquí puedes escribir todo el contenido textual que quieras sin depender de ninguna imagen.
       </p>
 
       {/* Puedes usar el componente Card enviando solo texto */}
       <Card 
-        titulo="paz " 
-        descripcion="altura" 
+        titulo="Capital Folclórica " 
+        descripcion="Beni es famosa por su carnaval y su rica cultura." 
       />
+
       
     </div>
-
-        </>
-        
-    )
-
+  )
 }
-export default Lapaz;
+
+export default Beni

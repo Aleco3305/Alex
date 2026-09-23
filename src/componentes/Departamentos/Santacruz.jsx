@@ -1,19 +1,19 @@
 import Card from '../Card'
 
-function Lapaz (){
+function SantaCruz (){
 
     return(
         <>
         <div style={{ padding: "20px", color: "white" }}>
 
-      <h1>Bienvenido a La Paz</h1>
+      <h1>Bienvenido a Santa Cruz</h1>
       <p>
         Aquí puedes escribir todo el contenido textual que quieras sin depender de ninguna imagen.
       </p>
 
       {/* Puedes usar el componente Card enviando solo texto */}
       <Card 
-        titulo="paz " 
+        titulo="Santa Cruz" 
         descripcion="altura" 
       />
       
@@ -24,4 +24,4 @@ function Lapaz (){
     )
 
 }
-export default Lapaz;
+export default SantaCruz;
